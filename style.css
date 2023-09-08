@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    font-size: medium;
+    border: border-box;
+   
+}
+/**box1**/
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+   
+
+}
+.nav-logo{
+    height: 50px;
+    width: 120px;
+}
+.logo{
+    background-image: url("amazon_logo.png") ;
+    background-size: cover;
+    height: 50px; 
+    width: 100px;
+
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+
+}
+.nav-add{
+    font-size: 1rem;
+    margin: 5px 2px 5px 0px;
+    padding: 0px 9px ;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+}
+/**box2**/
+.add-line-1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    font: 12px;
+    margin-left: 15px;
+
+}
+.add-line-2{
+    align-items: center;
+    margin-left: 3px;
+
+}
+.add-icon{
+    display: flex;
+   align-items:center ;
+}
+/**box3**/
+.nav-search{
+
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #febd68;
+    width: 500px;
+    
+    height: 40px;
+    border-radius: 5px;
+    
+}
+.nav-search:hover{
+    border: 2px solid #febd68;
+}
+.search-select{
+    background-color: rgb(209, 204, 204);
+    width: 50px;
+    text-align: center;
+    border: 2px; ;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-select:hover{
+    background-color: #868585;
+
+}
+.search-input{
+    width:100% ;
+    font: size 1rem;
+    padding-left: 2%;
+    border: none ;
+
+}
+.search-icon{
+    display: flex;
+    width: 45px;
+    font-size: 1.2rem;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    align-items: center;
+    color: #0f1111;
+}
+.search-icon:hover{
+    border: 1px solid black;
+
+}
+/**box4**/
+.glob-icon{
+    display: flex;
+    justify-content: left;
+    font-size: 1rem;
+    margin: 3px;
+   
+    
+}
+.search-lang{
+    display: flex;
+    align-items:center ;
+    color: beige;
+    border: none;
+    background-color: #0f1111 ;
+}
+
+/**box5**/
+   .nav-signin{
+    font-size: 0.7rem;
+   }
+   .nav-second{
+   
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #FFFFFF;
+   }
+/**box6**/
+.nav-return{
+    font-size: 0.7rem;
+}
+.nav-Third{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+/**box7**/
+.nav-cart i{ /** if i change only icon font valu without disturbing it associeted text line in that case we can use "i" seffix after class name**/
+    font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**panel**/
+
+.panel{
+
+    height: 40px;
+    background-color: #222f3d;
+    color: #cccccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops:hover{
+    border: 1px solid #febd68;
+}
+.panel-ops p{ /** for all the paragraph ling in same horizontal line we using p after mentiong class name **/
+    display: inline;
+    margin-left: 15px;
+
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.75rem;
+    justify-content: space-evenly;
+
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/**Panel section End**/
+
+/**Hero section**/
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 257px;
+
+    width: 100%;
+}
+.sub-hero{
+    background-image: url("hero2_img.jpg");
+    height:70px;
+    width: 100%;
+    margin-block-start: 6px;
+    
+
+}
+.last-hero{
+    background-image: url("hero3_img.jpg");
+    width: 100%;
+    height: 150px;
+}
+.heading2{
+    margin-left: 18px;
+    font-size: 20px;
+    color: #0f1111;
+    margin-block-end: 10px;
+}
+/**Hero section Done**/
+
+/**shop section**/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgba(202, 220, 254, 0.937);
+    
+   
+}
+.box{
+    margin: 10px;
+    
+    height: 420px;
+    background-color: white;
+    width: 18%;
+    padding: 20px 5px 15px;
+
+}
+.box-img{
+    height: 350px;
+    margin-block-start: 4px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+  
+   
